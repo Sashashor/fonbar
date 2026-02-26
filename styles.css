@@ -344,7 +344,7 @@ header .header-content {
 
 .site-main {
   position: absolute;
-  top: calc(50px + env(safe-area-inset-top));
+  top: calc(64px + env(safe-area-inset-top));
   left: 0;
   width: 100%;
   z-index: 1;
@@ -2291,3 +2291,4 @@ header .user-avatar {
     animation: none !important;
   }
 }
+
