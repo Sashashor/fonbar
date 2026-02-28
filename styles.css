@@ -1524,6 +1524,11 @@ body.is-home-screen .site-main {
   object-fit: contain;
 }
 
+.admin-search-button img,
+.profile-history-search-button img {
+  filter: brightness(0) invert(1);
+}
+
 .admin-search-button svg {
   fill: none;
   stroke: currentColor;
